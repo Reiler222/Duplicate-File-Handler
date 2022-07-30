@@ -22,7 +22,7 @@ def sorting():
     print(sorted_dict)
 
 
-
+# TODO: Añadir un filtro para que, si ya existe un "size", añada la ruta del archivo a la lista valor de ese "size"
 def find_files():
     for root, dirs, files in os.walk(path):
         for name in files:
@@ -47,10 +47,4 @@ while True:
     else:
         break
 
-
 find_files()
-
-
-
-
-
